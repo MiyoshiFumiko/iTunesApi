@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/jquery.loadingoverlay/latest/loadingoverlay.min.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <nav class="navbar navbar-light bg-transparent mt-3">
+                <a class="navbar-brand" href="#">
+                    <i class="fab fa-itunes"></i>
+                   iTunes API
+                </a>
+              </nav>
+         </header>
+
+        <div class="input-group mb-3 mt-3">
+            <input id="search-word" type="text" class="form-control" placeholder="検索…" aria-label="検索…" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button" id="search-btn">検索</button>
+            </div>
+        </div>
+
+        <h2 id="search-result" class="bg-transparent mt-3 p-3 rounded mb-4" style="font-size: 1rem;">検索結果</h2>
+        
+        <div id="results" class="row">
+            
+            
+        
+        </div>
+    </div>
+</body>
+</html>
