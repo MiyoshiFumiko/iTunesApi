@@ -31,7 +31,7 @@ $('#search-btn, #search-word').on('click, keypress', () => {
         type: 'GET',
         dataType: 'jsonp',
         data: {
-            term: encodeURIComponent(word),
+            term: word,
             country: 'jp',
             media: 'music',
             lang: 'ja_jp',
